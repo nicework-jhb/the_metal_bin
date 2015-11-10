@@ -1,0 +1,437 @@
+#page
+{
+	margin: 0 auto;
+	width: 900px;
+}
+
+
+/* ----------- LOGO ----------- */
+
+#logo
+{
+	position: relative;
+	width: 302px;
+	height: 112px;
+	display: block;
+	float: left;
+	cursor: pointer;
+}
+
+#logo > a
+{
+	display: block;
+	position: absolute;
+	top: 11px;
+	left: 12px;
+	background: #fff url(../images/logo.gif) no-repeat;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+
+
+/* ----------- HEADER ----------- */
+
+#header.h1
+{
+	height: 198px;
+	background: url(../images/h1.jpg) no-repeat;
+}
+
+#header.h2
+{
+	height: 198px;
+	background: url(../images/h2.jpg) no-repeat;
+}
+
+#header.h3
+{
+	height: 198px;
+	background: url(../images/h3.jpg) no-repeat;
+}
+
+#header.h4
+{
+	height: 198px;
+	background: url(../images/h4.jpg) no-repeat;
+}
+
+#header.h5
+{
+	height: 198px;
+	background: url(../images/h5.jpg) no-repeat;
+}
+
+#header.h6
+{
+	height: 198px;
+	background: url(../images/h6.jpg) no-repeat;
+}
+
+#header.h7
+{
+	height: 198px;
+	background: url(../images/h7.jpg) no-repeat;
+}
+
+#header.h8
+{
+	height: 198px;
+	background: url(../images/h8.jpg) no-repeat;
+}
+
+#header.h9
+{
+	height: 198px;
+	background: url(../images/h9.jpg) no-repeat;
+}
+
+#header.h10
+{
+	height: 198px;
+	background: url(../images/h10.jpg) no-repeat;
+}
+
+#header.h11
+{
+	height: 198px;
+	background: url(../images/h11.jpg) no-repeat;
+}
+
+#header.h12
+{
+	height: 198px;
+	background: url(../images/h12.jpg) no-repeat;
+}
+
+#header.h13
+{
+	height: 198px;
+	background: url(../images/h13.jpg) no-repeat;
+}
+
+
+/* ----------- BREADCRUMBS ----------- */
+
+#breadcrumbs
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 8pt;
+	font-style: normal;
+	color: #C4C4C4;
+	margin-top: 19px;
+	margin-left: 7px;
+}
+
+#breadcrumbs > a,
+#breadcrumbs > a:hover
+{
+	color: #C4C4C4;
+	text-decoration: none;
+}
+
+/* ----------- SIDENAV ----------- */
+
+#sidenav
+{
+	margin-top: 10px;
+	margin-bottom: 0;
+	margin-left: -33px;
+	float: left;
+}
+
+#sidenav > li 
+{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 3px;
+	position: relative;
+}
+
+#sidenav > li > a
+{
+	height: 29px;
+	min-width: 213px;
+	background-color: #4d4d4d;
+	color: #fff;
+	display: block;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 11pt;
+	text-align:center;
+	padding-top: 12px;
+	padding-left: .8px;
+	padding-right: .6px;
+}
+
+#sidenav > li > a
+{
+	width: 100px;
+}
+
+#sidenav > li > a:hover,
+#sidenav > li > a.selected
+{
+	background-color: #1a1a1a;
+	color: #fff;
+}
+
+
+/* ----------- NAV ----------- */
+
+#nav
+{
+	margin-top: -24px;
+	margin-bottom: 0;
+	margin-left: -14px;
+	float: left;
+}
+
+#nav > li 
+{
+	float: left;
+	margin-right: 10px;
+	position: relative;
+}
+
+#nav > li > a
+{
+	height: 26px;
+	min-width: 118px;
+	background-color: #4d4d4d;
+	color: #fff;
+	display: block;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 11pt;
+	text-align:center;
+	padding-top: 10px;
+	padding-left: .8px;
+	padding-right: .6px;
+	border-bottom: solid 1px #000;
+	border-right: solid 1px #000;
+}
+
+#nav > li > a
+{
+	width: 100px;
+}
+
+#nav > li > a:hover,
+#nav > li > a.selected
+{
+	background-color: #1a1a1a;
+	color: #fff;
+}
+
+
+/* ----------- CONTENT ----------- */
+
+#body
+{
+	width: 900px;
+	background: url(../images/back.jpg) no-repeat;
+}
+
+#content
+{
+	margin-top: 19px;
+}
+
+#content.sidenav
+{
+	width: 235px;
+	padding: 0 5px 5px 0;
+	margin-top: 0;
+	float: left;
+}
+
+#content.sidecopy
+{
+	width: 235px;
+	padding: 0 5px 5px 0;
+	margin-top: 0;
+	float: left;
+}
+
+#content.maincopy
+{
+	width: 660px;
+	min-height: 400px;
+	margin-top: 7px;
+	margin-bottom: 21px;
+	float: left;
+}
+
+#content.contactus
+{
+	width: 330px;
+	min-height: 400px;
+	margin-top: 7px;
+	margin-bottom: 21px;
+	float: left;
+}
+
+#content.contactform
+{
+	width: 300px;
+	min-height: 400px;
+	margin-top: 7px;
+	margin-bottom: 21px;
+	float: left;
+}
+
+#content.bottomcopy
+{
+	width: 900px;
+	margin-top: 20px;
+	margin-bottom: 44px;
+	background: #dedede;
+	float: left;
+}
+
+#body #content > div.column
+{
+	width: 281px;
+	padding: 5px;
+	float: left;
+	margin-top: 10px;
+}
+
+#body #content #services > h2,
+#body #content #suppliers > h2,
+#body #content #buyers > h2
+{
+	margin-top: 0;
+}
+
+#body #content #suppliers > h2,
+#body #content #buyers > h2
+{
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#body #content #suppliers > p,
+#body #content #buyers > p
+{
+	color: #fff;
+}
+
+#body #content > div.column > h2
+{
+	text-transform: uppercase;
+}
+
+#body #services
+{
+	margin-left: 10px;
+	background: #dedede;
+}
+
+#body #services,
+#body #suppliers,
+#body #buyers
+{
+	height: 118px;
+	margin-right: 5px;
+}
+
+#body #suppliers,
+#body #buyers
+{
+	background: url(../images/services-block.gif) no-repeat;
+}
+
+
+/* ----------- FORM ----------- */
+
+#form {
+	width: 300px;
+	margin-top: 25px;
+}
+
+#form input, #form textarea {
+	padding: 0px;
+	width: 290px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12pt;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #ccc;
+}
+
+#form textarea {
+	height: 90px;
+}
+
+#form textarea:focus, #form input:focus {
+	border: 1px solid #1a1a1a;
+}
+
+#form input.submit-button {
+	width: 80px;
+	padding: 5px;
+	float: left;
+}
+
+
+/* ----------- FOOTER ----------- */
+
+#footer
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 8pt;
+	height: 69px;
+	color: #666666;
+	float: left;
+	margin-top: 30px;
+}
+
+#footer > a,
+.nicework > a
+{
+	color: #666666;
+	text-decoration: underline;
+}
+
+#footer > a:hover,
+.nicework > a:hover
+{
+	color: #666666;
+	text-decoration: none;
+}
+
+.nicework
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 8pt;
+	color: #666666;
+	text-align: right;
+	margin-top: 30px;
+}
+
+#mra
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 7pt;
+	color: #999999;
+	position: relative;
+	width: 87px;
+	height: 87px;
+	margin: 5px 10px 0 0;
+	display: block;
+	float: left;
+	cursor: pointer;
+	margin-top: -20px;
+}
+
+#mra > a
+{
+	display: block;
+	position: absolute;
+	background: url(../images/mra.gif);
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}

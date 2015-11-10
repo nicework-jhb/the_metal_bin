@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>The Metal Bin</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<link href="styles/reset.css" media="screen" rel="stylesheet" type="text/css">
+<link href="styles/structure.css" media="screen" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="jquery-1.2.6.min.js"></script>
+
+<script type="text/javascript">
+
+/*** 
+    Simple jQuery Slideshow Script
+    Released by Jon Raasch (jonraasch.com) under FreeBSD license: free to use or modify, not responsible for anything, etc.  Please link out to me if you like it :)
+***/
+
+function slideSwitch() {
+    var $active = $('#slideshow IMG.active');
+
+    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+    // use this to pull the images in the order they appear in the markup
+    var $next =  $active.next().length ? $active.next()
+        : $('#slideshow IMG:first');
+
+    // uncomment the 3 lines below to pull the images in random order
+    
+    // var $sibs  = $active.siblings();
+    // var rndNum = Math.floor(Math.random() * $sibs.length );
+    // var $next  = $( $sibs[ rndNum ] );
+
+
+    $active.addClass('last-active');
+
+    $next.css({opacity: 0.0})
+        .addClass('active')
+        .animate({opacity: 1.0}, 1000, function() {
+            $active.removeClass('active last-active');
+        });
+}
+
+$(function() {
+    setInterval( "slideSwitch()", 3000 );
+});
+
+</script>
+
+<style type="text/css">
+
+/*** set the width and height to match your images **/
+
+#slideshow {
+    position:relative;
+    height:396px;
+	width:600px;
+	float: left;
+}
+
+
+
+#slideshow IMG {
+    position:absolute;
+    top:7px;
+    left:0;
+	bottom:21px;
+    z-index:8;
+    opacity:0.0;
+	float: left;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}
+
+</style>
+
+
+<body>
+
+
+
+
+
+
+<div id="page">
+	<div id="logo"><a href="index.htm"></a></div>
+	<div id="header" class="h1"></div>
+	<div id="nav">
+		<ol id="nav">
+			<li><a href="index.htm" class="selected">Home</a></li>
+			<li><a href="what-we-do.htm">What We Do</a></li>
+			<li><a href="about-us.htm">About Us</a></li>
+			<li><a href="contact-us.htm">Contact Us</a></li>
+		</ol>
+	</div>
+	<div class="clear"></div>
+ 	<div id="body">
+		<div id="content" class="sidecopy">
+			<h2>The Metal Bin is dedicated to servicing the waste needs of the metal industry.</h2>
+			<p>The Metal Bin specialises in the recycling and processing of a variety of metals from ferrous to non-ferrous metals, mixed scrap and e-waste.</p>
+<p>In operation since 1988, the Metal Bin has wide-ranging expertise to ensure we give our clients superior service at competitive prices.</p>
+<p>Service delivery is important to us. We go the extra mile to ensure client satisfaction. We visit sites to discuss a solution that best suits the needs of our clients.</p>
+			<p><a href="what-we-do.htm" title="Click here to read more">Read More</a> &gt;&gt;</p>
+		</div>
+		<div id="slideshow" class="maincopy">
+        
+
+    
+   <img src="images/1.jpg" alt="Slideshow Image 1" class="active" />
+    <img src="images/2.jpg" alt="Slideshow Image 2" />
+    <img src="images/3.jpg" alt="Slideshow Image 3" />
+    <img src="images/4.jpg" alt="Slideshow Image 4" />
+    <img src="images/5.jpg" alt="Slideshow Image 5" />
+    <img src="images/6.jpg" alt="Slideshow Image 6" />
+    <img src="images/7.jpg" alt="Slideshow Image 7" />
+    <img src="images/8.jpg" alt="Slideshow Image 8" />
+    <img src="images/9.jpg" alt="Slideshow Image 9" />
+    <img src="images/10.jpg" alt="Slideshow Image 10" />
+    <img src="images/11.jpg" alt="Slideshow Image 11" />
+    <img src="images/12.jpg" alt="Slideshow Image 12" />
+    <img src="images/13.jpg" alt="Slideshow Image 13" />
+    <img src="images/14.jpg" alt="Slideshow Image 14" />
+    <img src="images/15.jpg" alt="Slideshow Image 15" />
+    <img src="images/16.jpg" alt="Slideshow Image 16" />
+    <img src="images/17.jpg" alt="Slideshow Image 17" />
+    <img src="images/18.jpg" alt="Slideshow Image 18" />
+    <img src="images/19.jpg" alt="Slideshow Image 19" />
+      <img src="images/20.jpg" alt="Slideshow Image 20" />
+    <img src="images/21.jpg" alt="Slideshow Image 21" />
+    <img src="images/22.jpg" alt="Slideshow Image 22" />
+    
+    
+    
+ 
+    
+    
+		</div>
+		<div class="clear"></div>
+		<div id="content" class="bottomcopy">
+			<div id="services" class="column">
+				<h2>Our services:</h2>
+				<p>At the Metal Bin our technology and skill guarantees that we provide maximum value for our clients. Below is a listing of our current services:</p>
+			</div>
+			<div id="suppliers" class="column">
+				<h2>Our suppliers:</h2>
+				<p>Bin Placements<br />
+				Bulk Clearing<br />
+				Demolition<br />
+				Destruction Certificate</p>
+			</div>
+			<div id="buyers" class="column">
+				<h2>Our buyers:</h2>
+				<p>Filling Containers<br />
+				Processing of various metals according to clients requirements</p>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+  <div id="mra" title="Proud Members of MRA">Proud Members of:<br /><a href="http://www.mra.co.za/" target="_blank"></a></div>
+	<div id="footer">
+		<a href="disclaimer.htm">Disclaimer</a> | <a href="sitemap.htm">Site Map</a> | 
+		<a href="contact-us.htm">Contact</a><br />&copy; 2015 the metal bin All Rights Reserved.
+	</div>
+	<div class="nicework" title="Click here to visit the NiceWork website">
+		<br />
+		Built By <a href="http://www.nicework.co.za" target="_blank">NiceWork</a>
+	</div>
+	<div class="clear"></div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15437590-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

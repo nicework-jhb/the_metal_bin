@@ -1,0 +1,123 @@
+*
+{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+body
+{
+	font-size: 10pt;
+}
+
+html, body, div, /*span*/, applet, object, iframe,
+/*h1, h2, h3,*/ h4, h5, h6, p, blockquote, pre,
+abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: normal;
+	font-style: normal;
+	vertical-align: baseline;
+	color: #1a1a1a;
+}
+
+h1,
+h1 > a
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15pt;
+	font-weight: bold;
+	font-style: normal;
+	text-transform: uppercase;
+	color: #08063F;
+}
+
+h2,
+h2 > a
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: normal;
+	line-height: 16pt;
+	text-decoration: none;
+	color: #08063F;
+}
+
+h3,
+h3 > a
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11pt;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	color: #1a1a1a;
+}
+
+a
+{
+	color: #1a1a1a;
+}
+
+p 
+{
+	line-height: 12pt;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 0em;
+}
+
+:focus 
+{
+	outline: 0;
+}
+
+body 
+{
+	line-height: 12pt;
+	color: #1a1a1a;
+	background: white;
+}
+
+ol, ul 
+{
+	list-style: none;
+}
+
+table 
+{
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption, th, td 
+{
+	text-align: left;
+	font-weight: normal;
+}
+
+blockquote:before, 
+blockquote:after,
+q:before, 
+q:after 
+{
+	content: "";
+}
+
+blockquote, 
+q 
+{
+	quotes: "" "";
+}
+
+div.clear
+{
+	clear: both;
+}
